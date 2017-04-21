@@ -1,4 +1,7 @@
-install: make get-deps
 script: make && make test
 language: c
 compiler: clang
+addons:
+     apt:
+      packages:
+	-check
