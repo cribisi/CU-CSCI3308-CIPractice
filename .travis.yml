@@ -1,6 +1,6 @@
 install: make get-deps
 ./configure && make && make test
-language: cpp
+language: c
 script: scons
 compiler: 
     -clang
